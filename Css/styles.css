@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Yellowtail', cursive;
+  font-size: 5.625rem;
+  padding-top: 50px;
+  color: #12776f;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #12776f;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0f4137;
+}
+
+a {
+  color: #0f4137;
+}
+
+hr {
+    border-style: none;
+    border-color: #f9c7cf;
+    border-top-style: dotted;
+    border-top-width: .5rem;
+    width: 5%;
+    margin: 100px auto;
+    }
+
+.top-container {
+  background-color: #e7f5f2;
+  position: relative;
+  padding-top: 50px;
+}
+
+.bottom-container {
+  background-color: #e7f5f2;
+  position: relative;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.profile {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+}
+
+.ProfilePic {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.Computer {
+  border-radius: 50%;
+  width: 30%;
+  float: left;
+  margin-right: 20px;
+}
+
+.Fried-rice {
+  width: 30%;
+  float: right;
+  margin-left: 20px;
+}
+
+.myButton {
+	background-color:#0f4137;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	padding:9px 31px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#f9c7d0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
